@@ -7,6 +7,7 @@ def finder(NRIC):
         st.write("Error: Invalid input")
         return False
 
+    NRIC = NRIC.capitalize()
     if NRIC[0] == "S" or NRIC[0] == "F":
         addFour=False
     elif NRIC[0] == "T" or NRIC[0] == "G":

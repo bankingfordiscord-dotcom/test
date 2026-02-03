@@ -76,7 +76,7 @@ def finder(NRIC):
     st.write("your NRIC is " + NRIC + lastLetter + '.')
 
 st.header("Welcome to NRIC doxxer.")
-st.subheader("Enter your NRIC excluding the last letter")
+st.subheader("Enter your NRIC excluding the last letter below.")
 
 # Form prevents live updating
 with st.form("my_form"):
